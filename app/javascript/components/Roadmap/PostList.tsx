@@ -25,7 +25,7 @@ const PostList = ({ posts, boards }: Props) => (
           />
         ))
       :
-        <CenteredMutedText>There are no posts that have this status.</CenteredMutedText>
+        <CenteredMutedText>Нет записей с таким статусом.</CenteredMutedText>
     }
   </div>
 );
